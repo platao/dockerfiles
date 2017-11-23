@@ -6,4 +6,4 @@ The Dockerfiles were get and adapted from many people:
 * @jessfraz (GIMP, Firefox)
 * @fgrehm (Firefox)
 
-Thanks for all these for your hard work!
+Thanks for all folks for your hard work!
