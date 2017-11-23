@@ -1,3 +1,5 @@
+# PulseAudio section adapted from @TheBiggerGuy: docker-pulseaudio-example repository
+
 # This Dockerfile generate the following pulseaudio error when run like a container:
 
 # Opening a playback stream with sample specification 's16le 2ch 44100Hz' and channel map 'front-left,front-right'.
