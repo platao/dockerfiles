@@ -8,7 +8,8 @@ All of these live on dockerhub under [platao](https://hub.docker.com/u/platao/).
 The Dockerfiles were get and adapted from many people:
 * @ellerbrock: Chromium *57*
 * @gianarb: Inkscape
-* @jessfraz: Atom, Audacity, Firefox *Quantum*, GIMP, Slack
+* @lmm-git: Firefox *52.5*
 * @fgrehm: Firefox *54*
+* @jessfraz: Atom, Audacity, Firefox *Quantum*, GIMP, Slack
 
 Thanks for all folks for your hard work!
