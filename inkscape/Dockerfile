@@ -1,15 +1,14 @@
 # Run container in Desktop:
 
-# xhost +local:;
+# xhost +local:docker;
 
-# docker run --rm \
+# docker run --rm --name inkscape \
 #     -v /tmp/.X11-unix:/tmp/.X11-unix \
 #     -v $HOME/Desktop:/home \
 #     -e DISPLAY \
-#     --name inkscape \
 #     platao/inkscape;
 
-# xhost -local:;
+# xhost -local:docker;
 
 FROM ubuntu:16.10
 
