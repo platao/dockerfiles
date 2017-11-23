@@ -1,15 +1,14 @@
 # Run container in Desktop:
 
-# xhost +local:;
+# xhost +local:docker;
 
-# docker run --rm \
+# docker run --rm --name gimp \
 #     -v /tmp/.X11-unix:/tmp/.X11-unix \
 #     -v $HOME/Desktop:/home \
 #     -e DISPLAY \
-#     --name gimp \
 #     platao/gimp;
 
-# xhost -local:;
+# xhost -local:docker;
 
 FROM debian:stretch
 
