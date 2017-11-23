@@ -2,7 +2,7 @@
 
 # xhost +local:docker;
 
-# docker run -ti --rm --name firefox54 \
+# docker run --rm --name firefox54 \
 #     -v /tmp/.X11-unix:/tmp/.X11-unix \
 #     -e DISPLAY \
 #     -v ~/Desktop:/home/fireuser/Desktop \
