@@ -13,7 +13,7 @@
 
 # xhost -local:docker;
 
-FROM alpine:latest
+FROM alpine
 
 RUN apk --no-cache add \
     --repository https://dl-3.alpinelinux.org/alpine/edge/testing \
