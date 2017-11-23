@@ -10,14 +10,19 @@
 
 # xhost -local:docker;
 
-FROM debian:stretch
+FROM alpine
 
-RUN apt-get update && apt-get install -y \
-	gimp \
-	--no-install-recommends \
-	&& rm -rf /var/lib/apt/lists/*
+ENV app=gimp home=/home user=gimpuser uid=1000
 
-VOLUME /home
-WORKDIR /home
+RUN adduser -h $home -s /sbin/nologin -u $uid -D $user && \
+    apk add --no-cache \
+        dbus-x11 \
+        dumb-init \
+        gimp \
+        mesa-gl \
+        ttf-freefont
 
-ENTRYPOINT ["gimp"] 
+USER    $user
+WORKDIR $home
+
+ENTRYPOINT ["gimp"]
