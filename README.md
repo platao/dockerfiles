@@ -7,7 +7,7 @@ All of these live on dockerhub under [platao](https://hub.docker.com/u/platao/).
 
 The Dockerfiles were get and adapted from many people:
 * @gianarb (Inkscape)
-* @jessfraz (Audacity, Firefox *Quantum*, GIMP, Slack)
+* @jessfraz (Atom, Audacity, Firefox *Quantum*, GIMP, Slack)
 * @fgrehm (Firefox v54)
 
 Thanks for all folks for your hard work!
