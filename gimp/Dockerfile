@@ -4,7 +4,7 @@
 
 # docker run --rm --name gimp \
 #     -v /tmp/.X11-unix:/tmp/.X11-unix \
-#     -v $HOME/Desktop:/home \
+#     -v ~/Desktop:/home \
 #     -e DISPLAY \
 #     platao/gimp;
 
