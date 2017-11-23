@@ -1,3 +1,16 @@
+# Run container in Desktop:
+
+# xhost +local:docker;
+
+# docker run --rm --name firefox \
+#     -v /tmp/.X11-unix:/tmp/.X11-unix \
+#     -e DISPLAY \
+#     -v ~/Desktop:/home \
+#     -v /dev/shm:/dev/shm \
+#     platao/firefox;
+
+# xhost -local:docker;
+
 FROM debian:sid
 
 RUN apt-get update && apt-get install -y \
