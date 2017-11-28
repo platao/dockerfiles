@@ -1,3 +1,16 @@
+# Run Franz desktop app in a container
+
+# xhost +local:docker;
+
+# docker run --rm --name franz \
+#     -v /tmp/.X11-unix:/tmp/.X11-unix \
+#     -e DISPLAY \
+#     -v ~/Desktop:/home \
+#     -v ~/.franz:/root/.config/Franz \
+#     franz;
+
+# xhost -local:docker;
+    
 FROM debian:stretch
 
 ENV FRANZ_VERSION 4.0.4
