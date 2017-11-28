@@ -1,4 +1,4 @@
-# Franz
+# Franz (only for text messages)
 
 This Dockerfile is running well on:
 
