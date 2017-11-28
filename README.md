@@ -10,6 +10,7 @@ The Dockerfiles were get and adapted from many people:
 * @gianarb: Inkscape
 * @lmm-git: Firefox *52.5*
 * @fgrehm: Firefox *54*
+* @itatabitovski: Franz
 * @jessfraz: Atom, Audacity, Firefox *Quantum*, Slack
 
 Thanks for all folks for your hard work!
